@@ -61,8 +61,7 @@ def caculPrior(X_train,y_train):
     # P(Y=yi)=I(Y=yi)/N
     Py=np.log(Iy/len(y_train))
 
-    # 计算条件概率
-    # P(X=xi|Y=yi)=P(X=xi,Y=yi)/P(Y=yi)
+        # P(X=xi|Y=yi)=P(X=xi,Y=yi)/P(Y=yi)
     # 先计算出出现次数
     for i in range(len(X_train)):
         print(i)
