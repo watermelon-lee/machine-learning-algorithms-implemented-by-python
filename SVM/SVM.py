@@ -270,7 +270,7 @@ class SVM:
             y_pred = self.predict(x)
             if y_pred == y_test[i]:
                 acc_num += 1
-            print(f'find {i}th data cluster:y_pred={y_pred},y={y_test[i]}')
+            print(f'testing {i}th data :y_pred={y_pred},y={y_test[i]}')
             print('now_acc=', acc_num / (i + 1))
 
 

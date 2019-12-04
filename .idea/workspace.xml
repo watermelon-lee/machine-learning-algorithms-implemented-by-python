@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f9cfdc1-fe6a-46f9-8dd9-33adcf00e903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/感知机/Perceptron_titanic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/感知机/Titanic_data/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/感知机/Titanic_data/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/感知机/my_submission.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/感知机/perceptron_Mnist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/感知机/rusult.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/SVM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +13,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/decision tree/DecisionTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="114" column="28" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+            <state relative-caret-position="1665">
+              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="271" column="7" lean-forward="true" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
+              <folding>
+                <element signature="e#207#226#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logistic regression/LogisticRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-529">
+            <state relative-caret-position="180">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
@@ -80,11 +98,11 @@
         <option value="$PROJECT_DIR$/感知机/perceptron_Mnist.py" />
         <option value="$PROJECT_DIR$/LogisticRegression.py" />
         <option value="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" />
+        <option value="$PROJECT_DIR$/SVM/SVM.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="537" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="957" />
@@ -95,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,21 +120,17 @@
               <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
               <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
-              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
-              <item name="decision tree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/感知机/Iris_data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Adaboost" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -270,11 +283,13 @@
       <workItem from="1574866991676" duration="1006000" />
       <workItem from="1574990431255" duration="97000" />
       <workItem from="1575001866357" duration="821000" />
+      <workItem from="1575382634327" duration="541000" />
+      <workItem from="1575455632241" duration="1840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27698000" />
+    <option name="totallyTimeSpent" value="30079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,10 +301,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="537" y="23" width="840" height="957" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="840" height="957" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33208022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34586465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,7 +317,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32947975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,6 +366,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/感知机/Perceptron.py" />
     <entry file="file://$PROJECT_DIR$/感知机/perceptron_Mnist.py" />
+    <entry file="file://$PROJECT_DIR$/decision tree/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistic regression/LogisticRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NaiveBayes/NaiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -362,17 +400,13 @@
     <entry file="file://$PROJECT_DIR$/KNN/KNN.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logistic regression/LogisticRegression.py">
+    <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decision tree/DecisionTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="114" column="28" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="271" column="7" lean-forward="true" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
+          <folding>
+            <element signature="e#207#226#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
