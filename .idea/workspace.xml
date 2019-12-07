@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f9cfdc1-fe6a-46f9-8dd9-33adcf00e903" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/SVM.py" afterDir="false" />
-    </list>
+    <list default="true" id="4f9cfdc1-fe6a-46f9-8dd9-33adcf00e903" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -42,6 +39,15 @@
               <folding>
                 <element signature="e#207#226#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -103,11 +109,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="x" value="187" />
+    <option name="y" value="108" />
+    <option name="width" value="1108" />
     <option name="height" value="957" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -119,6 +128,11 @@
             <path>
               <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
               <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="Adaboost" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,13 +156,14 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Adaboost" />
+      <recent name="$PROJECT_DIR$/感知机/Iris_data" />
+      <recent name="$PROJECT_DIR$/感知机" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/decision tree" />
       <recent name="$PROJECT_DIR$/logistic regression" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/感知机/Iris_data" />
-      <recent name="$PROJECT_DIR$/感知机" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,12 +299,12 @@
       <workItem from="1574990431255" duration="97000" />
       <workItem from="1575001866357" duration="821000" />
       <workItem from="1575382634327" duration="541000" />
-      <workItem from="1575455632241" duration="1840000" />
+      <workItem from="1575455632241" duration="1959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30079000" />
+    <option name="totallyTimeSpent" value="30198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,9 +316,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="840" height="957" extended-state="0" />
+    <frame x="187" y="108" width="1108" height="957" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34586465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25891182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,7 +333,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32947975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,6 +423,13 @@
           <folding>
             <element signature="e#207#226#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
