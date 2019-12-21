@@ -1,7 +1,7 @@
 """
 @File    : HMM.py
 @Time    : 2019-12-05 20:20
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
 @Email: leehaoran@pku.edu.cn
 """

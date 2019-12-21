@@ -1,7 +1,7 @@
 """
 @File    : hierarchicalClustering_K-means.py
 @Time    : 2019-12-07 12:55
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
 @Email: leehaoran@pku.edu.cn
 """

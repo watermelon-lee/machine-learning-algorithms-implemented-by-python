@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f9cfdc1-fe6a-46f9-8dd9-33adcf00e903" name="Default Changelist" comment="" />
+    <list default="true" id="4f9cfdc1-fe6a-46f9-8dd9-33adcf00e903" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py" beforeDir="false" afterPath="$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMM/HMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/HMM/HMM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNN/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNN/KNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/SVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/hierarchicalClustering_K-means.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering/hierarchicalClustering_K-means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decision tree/DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/decision tree/DecisionTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic regression/LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/logistic regression/LogisticRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perceptron/perceptron_Mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/perceptron/perceptron_Mnist.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,21 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/decision tree/DecisionTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -32,10 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GBDT/GBDT.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4305">
+              <caret line="288" column="24" lean-forward="true" selection-start-line="288" selection-start-column="24" selection-end-line="288" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="271" column="7" lean-forward="true" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
+            <state relative-caret-position="-4214">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#207#226#0" expanded="true" />
               </folding>
@@ -43,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HMM/HMM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -55,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logistic regression/LogisticRegression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -64,14 +76,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NaiveBayes/NaiveBayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/perceptron/Perceptron_titanic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2544" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/perceptron/perceptron_Mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN/KNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GBDT/boston_house_prices.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -103,14 +140,24 @@
         <option value="$PROJECT_DIR$/感知机/Perceptron_Iris.py" />
         <option value="$PROJECT_DIR$/感知机/perceptron_Mnist.py" />
         <option value="$PROJECT_DIR$/LogisticRegression.py" />
+        <option value="$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py" />
+        <option value="$PROJECT_DIR$/clustering/hierarchicalClustering_K-means.py" />
+        <option value="$PROJECT_DIR$/decision tree/DecisionTree.py" />
+        <option value="$PROJECT_DIR$/GBDT/GBDT.py" />
+        <option value="$PROJECT_DIR$/HMM/HMM.py" />
+        <option value="$PROJECT_DIR$/KNN/KNN.py" />
+        <option value="$PROJECT_DIR$/logistic regression/LogisticRegression.py" />
         <option value="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" />
+        <option value="$PROJECT_DIR$/perceptron/perceptron_Mnist.py" />
         <option value="$PROJECT_DIR$/SVM/SVM.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="x" value="463" />
+    <option name="y" value="29" />
+    <option name="width" value="1163" />
     <option name="height" value="957" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -132,6 +179,51 @@
               <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
               <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
               <item name="Adaboost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="clustering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="decision tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="GBDT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="HMM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="KNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="logistic regression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="NaiveBayes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="perceptron" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="统计学方法实现" type="b2602c69:ProjectViewProjectNode" />
+              <item name="统计学方法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="SVM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,6 +248,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/clustering" />
       <recent name="$PROJECT_DIR$/Adaboost" />
       <recent name="$PROJECT_DIR$/感知机/Iris_data" />
       <recent name="$PROJECT_DIR$/感知机" />
@@ -299,11 +392,14 @@
       <workItem from="1575001866357" duration="821000" />
       <workItem from="1575382634327" duration="541000" />
       <workItem from="1575455632241" duration="1959000" />
+      <workItem from="1575720326797" duration="123000" />
+      <workItem from="1575942840040" duration="20000" />
+      <workItem from="1576912569374" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30198000" />
+    <option name="totallyTimeSpent" value="30603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,10 +411,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="187" y="108" width="1108" height="957" extended-state="0" />
+    <frame x="463" y="29" width="1163" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25891182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2631579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -332,7 +428,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32947975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -381,54 +477,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/感知机/Perceptron.py" />
     <entry file="file://$PROJECT_DIR$/感知机/perceptron_Mnist.py" />
-    <entry file="file://$PROJECT_DIR$/decision tree/DecisionTree.py">
+    <entry file="file://$PROJECT_DIR$/clustering/iris.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/clustering/hierarchicalClustering_K-means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="e#1467#1485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision tree/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMM/HMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GBDT/boston_house_prices.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GBDT/GBDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4305">
+          <caret line="288" column="24" lean-forward="true" selection-start-line="288" selection-start-column="24" selection-end-line="288" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic regression/LogisticRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NaiveBayes/NaiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/KNN.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/perceptron/rusult.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron/Perceptron_titanic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perceptron/perceptron_Mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="271" column="7" lean-forward="true" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
+        <state relative-caret-position="-4214">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#207#226#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Adaboost/Adaboost(Boost_Tree).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

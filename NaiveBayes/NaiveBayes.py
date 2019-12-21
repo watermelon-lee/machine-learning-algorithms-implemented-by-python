@@ -1,8 +1,9 @@
 """
 @File    : NaiveBayes.py
 @Time    : 2019-10-22 16:24
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
+@Email   : leehaoran@pku.edu.cn
 """
 
 # mnist_train:60000

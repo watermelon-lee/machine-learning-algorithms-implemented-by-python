@@ -1,7 +1,7 @@
 """
 @File    : SVM.py
 @Time    : 2019-12-02 19:57
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
 @Email: leehaoran@pku.edu.cn
 """

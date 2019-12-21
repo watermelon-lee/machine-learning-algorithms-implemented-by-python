@@ -1,9 +1,9 @@
 """
 @File    : DecisionTree.py
 @Time    : 2019-10-23 21:00
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
-@Email   : 1901210423@pku.edu.cn
+@Email   : leehaoran@pku.edu.cn
 
 """
 

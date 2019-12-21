@@ -1,7 +1,7 @@
 """
 @File    : Adaboost(Boost_Tree).py
 @Time    : 2019-12-04 15:00
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
 @Email: leehaoran@pku.edu.cn
 """

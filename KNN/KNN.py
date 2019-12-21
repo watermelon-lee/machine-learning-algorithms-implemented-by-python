@@ -1,8 +1,9 @@
 """
 @File    : KNN.py
 @Time    : 2019-10-22 12:27
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
+@Email   : leehaoran@pku.edu.cn
 """
 
 # mnist_train:60000

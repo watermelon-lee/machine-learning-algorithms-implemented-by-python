@@ -1,9 +1,9 @@
 """
 @File    : LogisticRegression.py
 @Time    : 2019-10-25 08:48
-@Author  : 李浩然
+@Author  : Lee
 @Software: PyCharm
-@Email   : 1901210423@pku.edu.cn
+@Email   : leehaoran@pku.edu.cn
 """
 
 
