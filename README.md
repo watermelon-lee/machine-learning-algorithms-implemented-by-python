@@ -6,13 +6,13 @@ Mnist数据集在Mnist文件夹中，是压缩包形式，需要解压。
 
 像这样：
 
-<img src="/Users/lihaoran/Desktop/统计学方法实现/pic/example.png" style="zoom:50%;" />
+<img src="pic/example.png" style="zoom:50%;" />
 
 
 
 甚至是这样：
 
-<img src="/Users/lihaoran/Desktop/统计学方法实现/pic/example2.png" style="zoom:50%;" />
+<img src="pic/example2.png" style="zoom:50%;" />
 
 ## 已完成
 
@@ -47,10 +47,12 @@ Mnist数据集在Mnist文件夹中，是压缩包形式，需要解压。
 
 1. PCA（基于svd奇异值分解）
 
+#### 参数估计:
+1. GMM(EM算法应用)
+
 #### 待完成(寒假完成吧，快到期末了）：
 
-1. 高斯混合模型（EM算法）
-2. 条件随机场（进行分词或者词性标注）
+1. 条件随机场（进行分词或者词性标注）
 
 
 
