@@ -12,10 +12,28 @@ import numpy as np
 
 # 样本 boston_house_price
 
+# 对数据集的说明：
+# CRIM：城镇人均犯罪率。
+# ZN：住宅用地超过 25000 sq.ft. 的比例。
+# INDUS：城镇非零售商用土地的比例。
+# CHAS：查理斯河空变量（如果边界是河流，则为1；否则为0）。
+# NOX：一氧化氮浓度。
+# RM：住宅平均房间数。
+# AGE：1940 年之前建成的自用房屋比例。
+# DIS：到波士顿五个中心区域的加权距离。
+# RAD：辐射性公路的接近指数。
+# TAX：每 10000 美元的全值财产税率。
+# PTRATIO：城镇师生比例。
+# B：1000（Bk-0.63）^ 2，其中 Bk 指代城镇中黑人的比例。
+# LSTAT：人口中地位低下者的比例。
+# MEDV：自住房的平均房价，以千美元计。
+
+
 # 测试结果
 # 以百分之20误差率以内作为一次良好的预测
-# 多次测试准确率80%以上
-# R2_score在70左右
+# 测试准确率80%左右
+# R2_score（相关系数的平方）在0.7左右（不是很稳定，因为样本数量较小，测试数据在100条左右）
+# 调整迭代轮数（树的数量）以及树的深度（max_deep)，以及对残差拟合回归树的正则化系数（alpha）都会有不同的影响
 
 
 def loaddata(filename):
@@ -24,6 +42,8 @@ def loaddata(filename):
     #打乱数据集
     from sklearn.utils import shuffle
     data = shuffle(data)
+    # 你也可以设置种子保证结果的一致
+    # data = shuffle(data,random_state=666)
 
     # 切分样本，作为训练集和测试集
     rate=0.2
@@ -160,12 +180,12 @@ def createCART(data,deep,max_deep=2):
         return tree
 
 
-def gradientBoosting(round,data,learning_rate):
+def gradientBoosting(round, data, alpha):
     '''
 
     :param round: 迭代论数，也就是树的个数
     :param data: 训练集
-    :param learning_rate: 防止过拟合，每一棵树的正则化系数
+    :param alpha: 防止过拟合，每一棵树的正则化系数
     :return:
     '''
 
@@ -189,7 +209,7 @@ def gradientBoosting(round,data,learning_rate):
             for i in range(len(data)):
                 # 注意，这里穿的列表是tree_list中最后一个
                 # 因为我们只需要对残差进行拟合，data[:,-1]每一轮都进行了更新，所以我们只要减去上一颗提升树的预测结果就是残差了
-                data[i, -1] = data[i, -1] - predict_for_rm(data[i], tree_list[-1], learning_rate)
+                data[i, -1] = data[i, -1] - predict_for_rm(data[i], tree_list[-1], alpha)
         # 上面已经将样本值变为了残差，下面对残差拟合一颗回归树
         fx = createCART(data, deep=0, max_deep=4)
         #
@@ -198,12 +218,12 @@ def gradientBoosting(round,data,learning_rate):
     return tree_list
 
 
-def predict_for_rm(data,tree,learning_rate):
+def predict_for_rm(data, tree, alpha):
     '''
     获得前一轮 第m-1颗树 的预测值，从而获得残差
     :param data: 一条样本
     :param tree: 第 m-1 颗树
-    :param learning_rate: 正则化系数
+    :param alpha: 正则化系数
     :return:  第m-1颗树预测的值
     '''
 
@@ -225,17 +245,17 @@ def predict_for_rm(data,tree,learning_rate):
                 tree = tree[feature]['right']
         else:
             # 当tree中没有切分点point，证明这是一个叶节点，tree就是预测值，返回获得预测值
-            return learning_rate * tree
+            return alpha * tree
 
 
 
 
-def predict(data,tree_list,learning_rate):
+def predict(data, tree_list, alpha):
     '''
     对一条样本进行预测
     :param tree_list: 所有树的列表
     :param data: 一条需要预测的样本点
-    :param learning_rate:正则化系数
+    :param alpha:正则化系数
     :return: 预测值
     '''
     m=len(tree_list)
@@ -265,19 +285,19 @@ def predict(data,tree_list,learning_rate):
                         tree=tree[feature]['right']
                 else:
                     # 当tree中没有切分点point，证明这是一个叶节点，tree就是预测值，返回获得预测值
-                    fmx+=learning_rate*tree
+                    fmx+= alpha * tree
                     break
     return fmx
 
 
-def test(X_test, y_test,tree_list,learning_rate):
+def test(X_test, y_test, tree_list, alpha):
     acc = 0  # 正确率
     acc_num = 0  # 正确个数
     y_predict=[]
     for i in range(len(X_test)):
         print('testing ***', i)
         x = X_test[i]
-        y_pred =predict(x,tree_list,learning_rate)
+        y_pred =predict(x, tree_list, alpha)
         y_predict.append(y_pred)
         if y_pred/y_test[i]<1.25 and y_pred/y_test[i]>0.8:
             acc_num += 1
@@ -290,11 +310,11 @@ if __name__=='__main__':
     train_data,test_data=loaddata('boston_house_prices.csv')
 
 
-    tree_list=gradientBoosting(10,train_data,0.15)
+    tree_list=gradientBoosting(10,train_data,0.12)
 
     X_test,y_test=test_data[:,:-1],test_data[:,-1]
 
-    y_pred=test(X_test,y_test,tree_list,0.15)
+    y_pred=test(X_test,y_test,tree_list,0.12)
 
     from sklearn.metrics import r2_score
 
