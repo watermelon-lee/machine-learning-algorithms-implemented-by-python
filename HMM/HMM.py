@@ -1,3 +1,5 @@
+#coding:utf-8
+
 """
 @File    : HMM.py
 @Time    : 2019-12-05 20:20
@@ -42,7 +44,7 @@ def train(fileName):
     A=np.zeros((4,4))
 
     #定义观测概率矩阵
-    #在ord中，中文编码大小为65536，总共4个状态
+    #在ord为所有unicode字符进行编码[example: ord('我')=25105]，大小为65536，总共4个状态
     #所以B矩阵4x65536
     #就代表每一种状态（词性）得到观测状态（字）
     B=np.zeros((4,65536))
@@ -69,6 +71,11 @@ def train(fileName):
         # 就可以变为 1-T-1时刻，t时刻状态为qi，t+1时刻为qj状态出现次数/1-T-1时刻，t时刻状态为qi出现次数
         # 所以一下我们只需要统计出现频数，然后除总次数即可。
 
+
+        # date: 12.26
+        # 刚刚上面的说错了QAQ 今天在回顾的时候，发现那时候自己理解还不够啊
+        # 我们的训练集是已经标注完毕了，所以我们的学习算法是有监督学习
+        # 所以就是直接极大似然，频数/总数   就可以得出模型三要素的参数了
         for line in file.readlines():
             wordStatus=[]#用于保存该行所有单词的状态
             words=line.strip().split() #除去前后空格，然后依照中间空格切分为单词
@@ -156,11 +163,13 @@ def train(fileName):
 
 def word_partition(HMM_parameter,article):
     '''
-    使用维比特算法进行预测（即得到路径中每一个最有可能的状态）
+    使用维特比算法进行预测（即得到路径中每一个最有可能的状态）
     :param HMM_parameter: PI,A,B隐马尔可夫模型三要素
-    :param article: 需要分词的文章,以数组的形势传入，每一个元素是一行
+    :param article: 需要分词的文章,以数组的形式传入，每一个元素是一行
     :return: 分词后的文章
     '''
+
+    
     PI,A,B=HMM_parameter
     article_partition = [] #分词之后的文章
 
